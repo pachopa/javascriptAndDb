@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pachopa/javascriptAndDb/issues"
   },
-  "homepage": "https://github.com/pachopa/javascriptAndDb#readme"
+  "homepage": "https://github.com/pachopa/javascriptAndDb#readme",
+  "dependencies": {
+    "knex": "^0.13.0"
+  }
 }
