@@ -7,6 +7,6 @@ exports.up = function(knex, Promise) {
 
 exports.down = function(knex, Promise) {
   return knex.schema.alterTable('milestones', function(t) {
-    t.dropColumn('famous_person_id');
+    t.dropForeign('famous_person_id');
   });
 };
